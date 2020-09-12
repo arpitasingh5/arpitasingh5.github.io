@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "../images/work/amadeus.png",
+    "title": "Amadeus Software Labs Pvt. Ltd.",
+    "subtitle": "Software Engineer",
+    "period": "Apr '19 - current",
+    "location": "Bengaluru, India",
+    "specialization": "Android Development, Kotlin, FLutter "
+  },
+  {
+    "icon": "../images/work/novartis.png",
+    "title": "Novartis Healthcare India",
+    "subtitle": "Associate - Data Science",
+    "period": "Jul '18 - Mar '20",
+    "location": "Hyderabad, India",
+    "specialization": "Python, R, Tableau, Data Science pipeline"
+  },
+  {
+    "icon": "../images/work/novartis.png",
+    "title": "Novartis Healthcare India",
+    "subtitle": "Software Development Intern",
+    "period": "Jul '18 - Mar '20",
+    "location": "Hyderabad, India",
+    "specialization": "Frontend Development, React, JavaScript"
+  }
+]
