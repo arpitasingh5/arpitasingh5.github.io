@@ -9,27 +9,21 @@ module.exports = {
     title: `Arpita Singh`,
     description: `:)`,
     author: `Arpita Singh`,
-    siteUrl: `https://arpita.github.io`,
+    siteUrl: `https://arpita505.github.io`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://arpita.github.io`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GA_TRACKING_ID,
+        siteUrl: `https://arpita505.github.io`,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https:///arpita.github.io.com`,
-        sitemap: `https://arpita.github.io/sitemap.xml`,
+        host: `https:///arpita505.github.io`,
+        sitemap: `https://arpita505.github.io/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
@@ -98,12 +92,6 @@ module.exports = {
       options: {
         name: `data`,
         path: path.join(__dirname, `src`, `data`),
-      },
-    },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `279179176`,
       },
     },
     {

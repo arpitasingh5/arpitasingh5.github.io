@@ -13,7 +13,6 @@ import Hero from "../sections/Hero";
 import Languages from "../sections/Languages";
 //import Music from "../sections/Music";
 import Philanthropy from "../sections/Philanthropy";
-import Photography from "../sections/Photography";
 import Projects from "../sections/Projects";
 import Resume from "../sections/Resume";
 import Skills from "../sections/Skills";
@@ -40,7 +39,6 @@ const IndexPage = () => {
             <Philanthropy />
           </div>
         </div>
-        <Photography />
         <Resume />
         <Contact />
         <Footer />
