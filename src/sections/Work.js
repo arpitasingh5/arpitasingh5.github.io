@@ -75,7 +75,7 @@ const Work = () => {
                     </h6>
                   </div>
                   <h6 className="text-xs mt-2">
-                    <strong>Specialized in:</strong> {node.specialization}
+                    <strong>Worked on:</strong> {node.specialization}
                   </h6>
                 </div>
               </div>
