@@ -27,29 +27,21 @@ module.exports = {
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Arpita Singh`,
+        short_name: `Arpita`,
+        start_url: `/`,
+        background_color: fullConfig.theme.colors.white,
+        theme_color: fullConfig.theme.colors.white,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+        cache_busting_mode: `none`,
+      },
+    },
     `gatsby-plugin-eslint`,
-    // `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `Arpita Singh`,
-    //     short_name: `Arpita`,
-    //     start_url: `/`,
-    //     background_color: fullConfig.theme.colors.white,
-    //     theme_color: fullConfig.theme.colors.white,
-    //     display: `standalone`,
-    //     icon: `src/images/logo.png`,
-    //     cache_busting_mode: `none`,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-plugin-offline`,
-    //   options: {
-    //     workboxConfig: {
-    //       globPatterns: [`**/*`],
-    //     },
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
@@ -57,12 +49,6 @@ module.exports = {
         display: `swap`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-dribbble`,
-    //   options: {
-    //     access_token: process.env.DRIBBBLE_TOKEN,
-    //   },
-    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
