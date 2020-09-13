@@ -29,8 +29,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <Heading icon={GoTools} title="Skills" />
-
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
         {data.allSkillsJson.edges.map(({ node }, index) => (
           <div
             key={node.id}
@@ -45,12 +44,12 @@ const Skills = () => {
                 {...node.icon.childImageSharp}
               />
               <div>
-                <h6 className="text-xs font-semibold leading-none">
+                <h7 className="text-s font-semibold leading-none">
                   {node.name}
-                </h6>
+                </h7>
                 <h6
                   className="mt-2 leading-none"
-                  style={{ fontSize: "0.65rem" }}
+                  style={{ fontSize: "0.75rem" }}
                 >
                   ({node.tech})
                 </h6>

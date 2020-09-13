@@ -20,12 +20,12 @@ const sections = [
   { id: "publications", title: "Publications", icon: IoIosJournal },
   { id: "projects", title: "Projects", icon: FaDev },
   { id: "skills", title: "Skills", icon: GoTools },
-  { id: "languages", title: "Languages", icon: FaSignLanguage },
   {
     id: "certifications",
     title: "Certifications",
     icon: AiFillSafetyCertificate,
   },
+  { id: "languages", title: "Languages", icon: FaSignLanguage },
   { id: "design", title: "Design", icon: FaDribbble },
   { id: "art", title: "Art", icon: FaPaintBrush },
   { id: "resume", title: "Resume", icon: IoIosDocument },

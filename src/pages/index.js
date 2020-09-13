@@ -140,13 +140,15 @@ const IndexPage = () => {
           <Publications />
         </div>
         <Projects />
-        <Skills />
-        <Languages />
         <div className={styles.achievementsCertificationPhilanthropy}>
+          <div>
+            <Skills />
+          </div>
           <div>
             <Certifications />
           </div>
         </div>
+        <Languages />
         <Design/>
         <Art/>
         <Resume />
