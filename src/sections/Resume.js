@@ -1,6 +1,5 @@
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import GatsbyImage from "gatsby-image";
-import { OutboundLink } from "gatsby-plugin-google-analytics";
 import React from "react";
 import Button from "../components/Button";
 import Heading from "../components/Heading";
@@ -25,8 +24,8 @@ const Resume = () => {
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
         <div className="col-span-1 md:col-span-2">
-          <OutboundLink
-            href="https://pillai.xyz/resume-pdf"
+          <Link
+            href="https://drive.google.com/file/d/1o90HlPpCnPttqLqEKEOJ3Y_C8yAoF284/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-64 md:h-48 lg:h-64 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
@@ -38,12 +37,11 @@ const Resume = () => {
               {...data.file.childImageSharp}
             />
             <span className="sr-only">Download Resume</span>
-          </OutboundLink>
+          </Link>
         </div>
         <div className="col-span-1 md:col-span-3">
           <h5 className="text-lg lg:text-xl font-semibold">
-            To those HRs out there who need a more organized and minimal version
-            of my information, you can download the trusted PDF version here:
+            If you need a more organized and minimal version of my information, you can download the PDF version here:
           </h5>
 
           <Button
@@ -51,7 +49,7 @@ const Resume = () => {
             icon={IoIosDocument}
             title="Download Resume"
             onClick={() =>
-              window.open("https://pillai.xyz/resume-pdf", "_blank")
+              window.open("https://drive.google.com/file/d/1o90HlPpCnPttqLqEKEOJ3Y_C8yAoF284/view?usp=sharing", "_blank")
             }
           />
         </div>

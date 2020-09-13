@@ -1,18 +1,19 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import Heading from "../components/Heading";
-import { AiFillSafetyCertificate, FaAngleRight } from "../components/Icons";
+import { IoIosJournal, FaAngleRight } from "../components/Icons";
 import styles from "./Meta.module.css";
 
-const Certifications = () => {
+const Publications = () => {
   const data = useStaticQuery(graphql`
     {
-      allCertificationsJson {
+      allPublicationsJson {
         edges {
           node {
             id
             title
             subtitle
+            authors
             link
           }
         }
@@ -21,10 +22,10 @@ const Certifications = () => {
   `);
 
   return (
-    <section id="certifications">
-      <Heading icon={AiFillSafetyCertificate} title="Certifications" />
+    <section id="publications">
+      <Heading icon={IoIosJournal} title="Publications" />
 
-      {data.allCertificationsJson.edges.map(({ node }, index) => (
+      {data.allPublicationsJson.edges.map(({ node }, index) => (
         <div
           key={node.id}
           className={`${styles.container} wow fadeInDown`}
@@ -36,7 +37,10 @@ const Certifications = () => {
             <FaAngleRight />
           </div>
           <div>
+          <h4>
             <a href={node.link} className="font-semibold">{node.title}</a>
+            </h4>
+            <p><i>{node.authors}</i></p>
             <p className="text-sm">{node.subtitle}</p>
           </div>
         </div>
@@ -45,4 +49,4 @@ const Certifications = () => {
   );
 };
 
-export default Certifications;
+export default Publications;

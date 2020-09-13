@@ -6,7 +6,6 @@ import styles from "./Wrapper.module.css";
 
 const Wrapper = ({ children }) => {
   const { dark } = useContext(ThemeContext);
-
   useEffect(() => {
     if (typeof window !== `undefined`) {
       const WOW = require("wowjs");
@@ -14,10 +13,10 @@ const Wrapper = ({ children }) => {
     }
   }, []);
 
+
   return (
     <div className={dark ? styles.dark : styles.light}>
       <Navigation />
-
       <div className="mx-8 lg:mx-16 xl:mx-0">{children}</div>
     </div>
   );

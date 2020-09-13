@@ -24,7 +24,7 @@
   }
 
   .layout .achievements-certification-philanthropy {
-    @apply grid-cols-2;
+    @apply grid-cols-1;
   }
 
   .layout .achievements-certification-philanthropy > div:nth-child(3) {
@@ -34,7 +34,7 @@
 
 @screen xl {
   .layout .achievements-certification-philanthropy {
-    @apply grid-cols-3 gap-0;
+    @apply grid-cols-2 gap-0;
   }
 
   .layout .achievements-certification-philanthropy > div:nth-child(n) {

@@ -28,28 +28,28 @@ module.exports = {
       },
     },
     `gatsby-plugin-eslint`,
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Arpita Singh`,
-        short_name: `Arpita`,
-        start_url: `/`,
-        background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.white,
-        display: `standalone`,
-        icon: `src/images/icon.png`,
-        cache_busting_mode: `none`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-          globPatterns: [`**/*`],
-        },
-      },
-    },
+    // `gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `Arpita Singh`,
+    //     short_name: `Arpita`,
+    //     start_url: `/`,
+    //     background_color: fullConfig.theme.colors.white,
+    //     theme_color: fullConfig.theme.colors.white,
+    //     display: `standalone`,
+    //     icon: `src/images/logo.png`,
+    //     cache_busting_mode: `none`,
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-plugin-offline`,
+    //   options: {
+    //     workboxConfig: {
+    //       globPatterns: [`**/*`],
+    //     },
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
@@ -70,12 +70,6 @@ module.exports = {
       options: {
         name: `images`,
         path: path.join(__dirname, `src`, `images`),
-      },
-    },
-    {
-      resolve: `gatsby-source-dev`,
-      options: {
-        username: `arpita505`,
       },
     },
     `gatsby-transformer-remark`,

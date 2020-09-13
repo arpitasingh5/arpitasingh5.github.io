@@ -16,13 +16,13 @@
   },
   {
     "icon": "../images/skills/python.png",
-    "name": "Python Scripting",
-    "tech": "Python 3/BeautifulSoup/PyMongo"
+    "name": "Other Languages",
+    "tech": "Python/C++/R"
   },
   {
     "icon": "../images/skills/database.png",
     "name": "Database Management System",
-    "tech": "MySQL/Postgres/MongoDB"
+    "tech": "MySQL/MongoDB"
   },
   {
     "icon": "../images/skills/android.png",
@@ -32,21 +32,11 @@
   {
     "icon": "../images/skills/sketch.png",
     "name": "UI/UX Design",
-    "tech": "Adobe XD/Sketch"
+    "tech": "Adobe XD/Sketch/Adobe Illustrator"
   },
   {
     "icon": "../images/skills/tensorflow.png",
     "name": "Machine Learning",
     "tech": "Scikit-Learn/TensorFlow/Keras"
-  },
-  {
-    "icon": "../images/skills/photography.png",
-    "name": "Photography & Cinematography",
-    "tech": "Adobe Photoshop/Lightroom"
-  },
-  {
-    "icon": "../images/skills/fcpx.png",
-    "name": "Photo & Video Post-Processing",
-    "tech": "Adobe After Effects/Final Cut Pro X"
   }
 ]

@@ -1,22 +1,21 @@
 [
   {
-    "title": "Applied CS with Android",
-    "subtitle": "Google"
+    "title": "Data Science Specialization by John Hopkins University",
+    "subtitle": "Coursera",
+    "link" : "https://www.coursera.org/account/accomplishments/specialization/certificate/UX2HTEDYMWBN"
   },
   {
-    "title": "The Complete React Native and Redux Course",
-    "subtitle": "Udemy"
+    "title": "Applied Data Science with Python by University of Michigan",
+    "subtitle": "Coursera",
+    "link" : "https://www.coursera.org/account/accomplishments/specialization/certificate/P9SHCJN2REQF"
   },
   {
-    "title": "Data Science & Machine Learning using Python",
-    "subtitle": "Udemy"
+    "title": "Neural Networks and Deep Learning by deeplearning.ai",
+    "subtitle" : "Coursera",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/XXWN6N8855BF"
   },
   {
-    "title": "Dynamic Skills Integrated Program",
-    "subtitle": "DSI - Center for Innovation and Leadership"
-  },
-  {
-    "title": "Java - Level 1 & 2",
-    "subtitle": "Cambridge Certification Authority"
+    "title": "Android Programming",
+    "subtitle": "Coding Blocks"
   }
 ]

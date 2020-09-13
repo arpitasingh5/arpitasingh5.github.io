@@ -1,7 +1,6 @@
 import Tooltip from "@material-ui/core/Tooltip";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery, Link } from "gatsby";
 import GatsbyImage from "gatsby-image";
-import { OutboundLink } from "gatsby-plugin-google-analytics";
 import React from "react";
 import Button from "../components/Button";
 import Heading from "../components/Heading";
@@ -45,8 +44,8 @@ const Projects = () => {
               animationDelay: `${index * 300 + 300}ms`,
             }}
           >
-            <OutboundLink
-              href={node.website || node.github}
+            <Link
+              href={node.github}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full h-48 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
@@ -57,7 +56,7 @@ const Projects = () => {
                 {...node.image.childImageSharp}
               />
               <span className="sr-only">{node.title}</span>
-            </OutboundLink>
+            </Link>
             <h5 className="mt-4 font-semibold">{node.title}</h5>
             <p className="mt-2 pb-5 text-sm text-justify">{node.description}</p>
 
@@ -70,23 +69,10 @@ const Projects = () => {
             </p>
 
             <div className="flex mt-2">
-              {node.website && (
-                <Tooltip title="Go to Website" placement="bottom">
-                  <OutboundLink
-                    href={node.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-2 mr-2 hover:text-primary-500"
-                  >
-                    <FaLink />
-                    <span className="sr-only">Go to Website</span>
-                  </OutboundLink>
-                </Tooltip>
-              )}
 
               {node.github && (
                 <Tooltip title="Go to GitHub Repo" placement="bottom">
-                  <OutboundLink
+                  <Link
                     href={node.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -94,7 +80,7 @@ const Projects = () => {
                   >
                     <FaGithub />
                     <span className="sr-only">Go to GitHub Repo</span>
-                  </OutboundLink>
+                  </Link>
                 </Tooltip>
               )}
             </div>
@@ -106,7 +92,7 @@ const Projects = () => {
         className="mt-6"
         icon={FaGithub}
         title="Projects on GitHub"
-        onClick={() => window.open("https://pillai.xyz/github", "_blank")}
+        onClick={() => window.open("https://github.com/arpita505", "_blank")}
       />
     </section>
   );

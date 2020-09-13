@@ -1,54 +1,47 @@
 import {
-  FaDev,
   FaDribbble,
   FaFacebookF,
-  FaGithubAlt,
-  FaInstagram,
+  FaGithub,
+  FaGoogle,
   FaLinkedinIn,
   FaTwitter,
 } from "../components/Icons";
 
 const social = [
   {
-    title: "Instagram",
-    icon: FaInstagram,
-    link: "https://pillai.xyz/instagram",
-    class: "bg-instagram",
+    title: "Gmail",
+    icon: FaGoogle,
+    link: "mailto: arpita5572@gmail.com",
+    class: "bg-google",
   },
   {
     title: "LinkedIn",
     icon: FaLinkedinIn,
-    link: "https://pillai.xyz/linkedin",
+    link: "https://www.linkedin.com/in/arpita505/",
     class: "bg-linkedin",
   },
   {
     title: "GitHub",
-    icon: FaGithubAlt,
-    link: "https://pillai.xyz/github",
+    icon: FaGithub,
+    link: "https://github.com/arpita505",
     class: "bg-github",
   },
   {
     title: "Dribbble",
     icon: FaDribbble,
-    link: "https://pillai.xyz/dribbble",
+    link: "https://dribbble.com/arpita505",
     class: "bg-dribbble",
-  },
-  {
-    title: "DEV Community",
-    icon: FaDev,
-    link: "https://pillai.xyz/dev",
-    class: "bg-dev",
   },
   {
     title: "Facebook",
     icon: FaFacebookF,
-    link: "https://pillai.xyz/facebook",
+    link: "https://www.facebook.com/arpita505/",
     class: "bg-facebook",
   },
   {
     title: "Twitter",
     icon: FaTwitter,
-    link: "https://pillai.xyz/twitter",
+    link: "https://twitter.com/arpita505",
     class: "bg-twitter",
   },
 ];
