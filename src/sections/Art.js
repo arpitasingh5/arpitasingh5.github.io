@@ -5,7 +5,7 @@ import Heading from "../components/Heading";
 import {
   FaPaintBrush,
 } from "../components/Icons";
-import styles from "./Photography.module.css";
+import styles from "./art.module.css";
 
 const Art = () => {
   const data = useStaticQuery(graphql`

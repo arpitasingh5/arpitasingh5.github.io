@@ -7,7 +7,7 @@ import {
   FaDribbble,
   FaLink,
 } from "../components/Icons";
-import styles from "./Photography.module.css";
+import styles from "./art.module.css";
 
 const Design = () => {
   const data = useStaticQuery(graphql`

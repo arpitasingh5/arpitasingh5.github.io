@@ -52,7 +52,7 @@ section .heading {
 }
 
 section:hover .heading {
-  color: theme("colors.primary.500");
+  color: #7ad7ff;
   @apply transition-default;
 }
 
