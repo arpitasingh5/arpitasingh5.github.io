@@ -35,6 +35,13 @@
     "github": "https://github.com/arpita505/FlutterImageLabeler"
   },
   {
+    "image": "../images/resume/preview.png",
+    "title": "Online Resume",
+    "description": "Simple Resume made in React",
+    "tags": ["resume", "html", "css", "react"],
+    "github": "https://arpita505.github.io/React-Resume/"
+  },
+  {
     "image": "../images/projects/Screenshot.jpg",
     "title": "Flutter Text Recognizer",
     "description": "Text Recognition in Flutter Using Firebase ML Kit",
