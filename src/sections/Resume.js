@@ -48,7 +48,7 @@ const Resume = () => {
             icon={IoIosDocument}
             title="View E-Resume"
             onClick={() =>
-              window.open("https://arpita505.github.io/React-Resume/", "_blank")
+              window.open("https://arpitasingh5.github.io/React-Resume/", "_blank")
             }
           />
           <div>

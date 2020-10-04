@@ -23,7 +23,7 @@ const social = [
   {
     title: "GitHub",
     icon: FaGithub,
-    link: "https://github.com/arpita505",
+    link: "https://github.com/arpitasingh505",
     class: "bg-github",
   },
   {

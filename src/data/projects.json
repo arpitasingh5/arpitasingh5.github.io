@@ -1,51 +1,58 @@
 [
   {
+    "image": "../images/projects/streamlit.png",
+    "title": "Face Mask Detection",
+    "description": "Face Mask Detector with OpenCV, Keras,TensorFlow, and Deep Learning. Webapp in streamlit.",
+    "tags": ["covid", "opencv", "keras", "deeplearning", "tensorflow", "streamlit"],
+    "github": "https://github.com/arpitasingh5/Face-Mask-Detection"
+  },
+  {
     "image": "../images/projects/flask.png",
-    "title": "Deal With It Meme Generator",
+    "title": "Meme Generator",
     "description": "Automatic Meme Generator using OpenCV and dLib along with Webapp on streamlit.",
     "tags": ["flask", "opencv", "dlib", "streamlit", "python"],
-    "github": "https://github.com/arpita505/Meme-Generator"
+    "github": "https://github.com/arpitasingh5/Meme-Generator"
   },
   {
     "image": "../images/projects/Uttarakhand.png",
     "title": "Covid Data Analysis (India)",
     "description": "Predicting and plotting future coronavirus cases for Indian States using LSTMs in PyTorch",
     "tags": ["python", "lstm", "datascience", "pytorch", "covid"],
-    "github": "https://github.com/arpita505/CovidDataAnalysis"
-  },
-  {
-    "image": "../images/projects/dark.png",
-    "title": "Day Night Theme Changer",
-    "description": "Flutter app made using hive and provider to change theme of the phone",
-    "tags": ["ios", "hive", "flutter", "firebase", "android"],
-    "github": "https://github.com/arpita505/FlutterThemeChanger"
-  },
-  {
-    "image": "../images/projects/streamlit.png",
-    "title": "Face Mask Detection",
-    "description": "Face Mask Detector with OpenCV, Keras,TensorFlow, and Deep Learning. Webapp in streamlit.",
-    "tags": ["covid", "opencv", "keras", "deeplearning", "tensorflow", "streamlit"],
-    "github": "https://github.com/arpita505/Face-Mask-Detection"
-  },
-  {
-    "image": "../images/projects/Screenshot.png",
-    "title": "Flutter Image Labeler",
-    "description": "Image Labeling in Flutter Using Firebase ML Kit",
-    "tags": ["flutter", "android", "ios", "firebase", "ML"],
-    "github": "https://github.com/arpita505/FlutterImageLabeler"
+    "github": "https://github.com/arpitasingh5/CovidDataAnalysis"
   },
   {
     "image": "../images/resume/preview.png",
     "title": "Online Resume",
     "description": "Simple Resume made in React",
     "tags": ["resume", "html", "css", "react"],
-    "github": "https://arpita505.github.io/React-Resume/"
+    "github": "https://arpitasingh5.github.io/React-Resume/"
+  },
+  {
+    "image": "../images/projects/website.png",
+    "title": "Personal Website",
+    "description": "Personal Website made with Gatsby and React. Hosted on Github Pages",
+    "tags": ["website", "gatsby", "css", "react"],
+    "github": "https://arpitasingh5.github.io/"
+  },
+  {
+    "image": "../images/projects/dark.png",
+    "title": "Day Night Theme Changer",
+    "description": "Flutter app made using hive and provider to change theme of the phone",
+    "tags": ["ios", "hive", "flutter", "firebase", "android"],
+    "github": "https://github.com/arpitasingh5/FlutterThemeChanger"
+  },
+  {
+    "image": "../images/projects/Screenshot.png",
+    "title": "Flutter Image Labeler",
+    "description": "Image Labeling in Flutter Using Firebase ML Kit",
+    "tags": ["flutter", "android", "ios", "firebase", "ML"],
+    "github": "https://github.com/arpitasingh5/FlutterImageLabeler"
   },
   {
     "image": "../images/projects/Screenshot.jpg",
     "title": "Flutter Text Recognizer",
     "description": "Text Recognition in Flutter Using Firebase ML Kit",
     "tags": ["flutter", "android", "ios", "firebase", "ML"],
-    "github": "https://github.com/arpita505/FlutterTextRecognizer"
+    "github": "https://github.com/arpitasingh5/FlutterTextRecognizer"
   }
 ]
