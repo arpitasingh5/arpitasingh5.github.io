@@ -23,14 +23,14 @@ const IndexPage = () => {
   const params = {
     particles: {
       number: {
-        value: 5,
+        value: 3,
         density: {
           enable: true,
           value_area: 1500,
         },
       },
       color: {
-        value: '#575757', // 303346
+        value: '#7ad7ff', // 303346
       },
       shape: {
         type: 'star',
@@ -53,12 +53,12 @@ const IndexPage = () => {
         },
       },
       size: {
-        value: 34.29459670609772,
+        value: 14.29459670609772,
         random: true,
         anim: {
           enable: true,
           speed: 1,
-          size_min: 40,
+          size_min: 50,
           sync: false,
         },
       },
