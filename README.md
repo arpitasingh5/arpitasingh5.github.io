@@ -1,3 +1,3 @@
 # Personal Website
 
-Made with Gatsby and React.
+Made with Gatsby and React.js.
