@@ -9,21 +9,21 @@ module.exports = {
     title: `Arpita Singh`,
     description: `:)`,
     author: `Arpita Singh`,
-    siteUrl: `https://arpita505.github.io`,
+    siteUrl: `https://arpitasingh5.github.io`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://arpita505.github.io`,
+        siteUrl: `https://arpitasingh5.github.io`,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https:///arpita505.github.io`,
-        sitemap: `https://arpita505.github.io/sitemap.xml`,
+        host: `https:///arpitasingh5.github.io`,
+        sitemap: `https://arpitasingh5.github.io/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },

@@ -4,7 +4,7 @@ import {
   FaGithub,
   FaGoogle,
   FaLinkedinIn,
-  FaTwitter,
+  FaInstagram
 } from "../components/Icons";
 
 const social = [
@@ -23,7 +23,7 @@ const social = [
   {
     title: "GitHub",
     icon: FaGithub,
-    link: "https://github.com/arpitasingh505",
+    link: "https://github.com/arpitasingh5",
     class: "bg-github",
   },
   {
@@ -39,10 +39,10 @@ const social = [
     class: "bg-facebook",
   },
   {
-    title: "Twitter",
-    icon: FaTwitter,
-    link: "https://twitter.com/arpita505",
-    class: "bg-twitter",
+    title: "Instagram",
+    icon: FaInstagram,
+    link: "https://www.instagram.com/arpita505_/",
+    class: "bg-instagram",
   },
 ];
 
