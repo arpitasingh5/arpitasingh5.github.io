@@ -133,8 +133,8 @@ const IndexPage = () => {
         <Hero />
         <AboutMe />
         <div className={styles.workEducation}>
+        <Education />
           <Work />
-          <Education />
         </div>
         <div>
           <Publications />
