@@ -37,6 +37,7 @@ module.exports = {
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.white,
         display: `standalone`,
+        title: `Arpita Singh`,
         icon: `src/images/icon.png`,
         cache_busting_mode: `none`,
       },
