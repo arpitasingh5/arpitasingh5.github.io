@@ -15,8 +15,8 @@ import {
 
 const sections = [
   { id: "about-me", title: "About Me", icon: MdPerson },
-  { id: "work", title: "Work", icon: MdWork },
   { id: "education", title: "Education", icon: MdSchool },
+  { id: "work", title: "Work", icon: MdWork },
   { id: "publications", title: "Publications", icon: IoIosJournal },
   { id: "projects", title: "Projects", icon: FaDev },
   { id: "skills", title: "Skills", icon: GoTools },

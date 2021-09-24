@@ -57,7 +57,7 @@ const Resume = () => {
             icon={IoIosDocument}
             title="Download Resume"
             onClick={() =>
-              window.open("https://drive.google.com/file/d/1eX6SLDPdVWhmlfRYhVeT4cGSRlCpZ7n9/view?usp=sharing", "_blank")
+              window.open("https://drive.google.com/file/d/1GIg9pt9FcS95TEhnXl928DeOBAy_aTsk/view?usp=sharing", "_blank")
             }
           />
           </div>

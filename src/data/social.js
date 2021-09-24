@@ -41,7 +41,7 @@ const social = [
   {
     title: "Instagram",
     icon: FaInstagram,
-    link: "https://www.instagram.com/arpita505_/",
+    link: "https://www.instagram.com/arpizza_/",
     class: "bg-instagram",
   },
 ];
