@@ -43,14 +43,14 @@ const Resume = () => {
           <h5 className="text-lg lg:text-xl font-semibold">
             Have a look at a more organised and minimalised information here :
           </h5>
-          <Button
-            className="mt-8"
-            icon={IoIosDocument}
-            title="View E-Resume"
-            onClick={() =>
-              window.open("https://arpitasingh5.github.io/React-Resume/", "_blank")
-            }
-          />
+          // <Button
+          //   className="mt-8"
+          //   icon={IoIosDocument}
+          //   title="View E-Resume"
+          //   onClick={() =>
+          //     window.open("https://arpitasingh5.github.io/React-Resume/", "_blank")
+          //   }
+          // />
           <div>
           <Button
             className="mt-8"
