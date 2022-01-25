@@ -25,7 +25,7 @@ const Resume = () => {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-5 md:gap-8 items-center">
         <div className="col-span-1 md:col-span-2">
           <Link
-            href="https://arpita505.github.io/React-Resume/"
+            // href="https://arpita505.github.io/React-Resume/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-64 md:h-48 lg:h-64 bg-black relative flex-center cursor-pointer rounded-lg shadow-lg"
@@ -43,14 +43,14 @@ const Resume = () => {
           <h5 className="text-lg lg:text-xl font-semibold">
             Have a look at a more organised and minimalised information here :
           </h5>
-          // <Button
-          //   className="mt-8"
-          //   icon={IoIosDocument}
-          //   title="View E-Resume"
-          //   onClick={() =>
-          //     window.open("https://arpitasingh5.github.io/React-Resume/", "_blank")
-          //   }
-          // />
+          <Button
+            className="mt-8"
+            icon={IoIosDocument}
+            title="View E-Resume"
+            // onClick={() =>
+            //   window.open("https://arpitasingh5.github.io/React-Resume/", "_blank")
+            // }
+          />
           <div>
           <Button
             className="mt-8"
